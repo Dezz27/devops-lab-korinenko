@@ -1,12 +1,14 @@
 University: [ITMO University](https://itmo.ru/ru/)
-Faculty: [FTMI]()
+Faculty: [FTMI](https://ftmi.itmo.ru/)
 Course: [Введение в веб технологии](https://itmo-ict-faculty.github.io/introduction-in-web-tech/)
 Year: 2025/2026
 Group: U4225
 Author: Korinenko Daniil Trofimovich
 Lab: Lab1
 Date of create: 03.10.2025
-Date of finished: 03.10.2025
+Date of finished: 03.10.2025\
+
+### Base task
 
 1. `docker --version` & `docker run hello-world` ![1759503675232](image/lab1_report/1759503675232.png)
 2. `docker images` ![1759503765870](image/lab1_report/1759503765870.png)
