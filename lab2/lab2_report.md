@@ -14,7 +14,7 @@ Lab: Lab2\
 
 Date of create: 06.10.2025\
 
-Date of finished:\
+Date of finished: 06.10.2025\
 
 ### Base task
 
@@ -29,10 +29,8 @@ Date of finished:\
 #### Develop push
 
 1. Создали и запушили в `develop` ветку![1759771140033](image/lab2_report/1759771140033.png)
-
 2. В DockerHub появился image с develop-тегами ![1759771203180](image/lab2_report/1759771203180.png)
-
-4. Успех в GitHub Actions и отображение сообщения ![1759771414882](image/lab2_report/1759771414882.png)
+3. Успех в GitHub Actions и отображение сообщения ![1759771414882](image/lab2_report/1759771414882.png)
 
 #### Main push
 
