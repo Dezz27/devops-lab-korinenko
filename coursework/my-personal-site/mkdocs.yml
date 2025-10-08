@@ -1,0 +1,30 @@
+# mkdocs.yml
+site_name: Commitly
+site_description: Продукт для обучения разработчиков
+site_author: Даниил Кориненко
+site_url: https://commitly.ai
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+  palette:
+    primary: blue
+    accent: white
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Dezz27
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/D_Korr
