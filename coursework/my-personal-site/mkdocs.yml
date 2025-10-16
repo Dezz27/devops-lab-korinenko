@@ -6,25 +6,70 @@ site_url: https://commitly.ai
 
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - search.highlight
-    - search.share
+  language: ru
+  logo: images/Рок.png
+  favicon: images/Бокс.png
   palette:
-    primary: blue
-    accent: white
+    - scheme: default
+      primary: indigo
+      accent: pink
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+    - content.code.copy
+    - content.action.view
+    - search.highlight
+    - search.suggest
 
 nav:
   - Главная: index.md
-  - О себе: about.md
+  - Кто я?: about.md
   - Проекты: projects.md
   - Контакты: contacts.md
 
+plugins:
+  - search
+
 extra:
   social:
-    - icon: fontawesome/brands/github
+    - icon: simple/github
       link: https://github.com/Dezz27
-    - icon: fontawesome/brands/telegram
+      name: GitHub
+    - icon: simple/telegram
       link: https://t.me/D_Korr
+      name: Telegram
+    - icon: material/email
+      link: mailto:dkorinenko27@gmail.com
+      name: Email
+
+copyright: >
+  Контент по лицензии <b><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></b>
+
+
+extra_css:
+  - styles/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: false
+  - md_in_html     
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true

@@ -1,0 +1,27 @@
+.float-right {
+  float: right;
+  width: 180px;          /* подгони размер под своё фото */
+  margin: 0 0 1rem 1rem; /* отступ слева и снизу от текста */
+  border-radius: 8px;    /* опционально: скругление */
+}
+
+/* На узких экранах отключаем float, чтобы всё было читабельно */
+@media (max-width: 768px) {
+  .float-right {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem auto; /* по центру и отступ снизу */
+    width: 60%;               /* можно 100%/авто — как удобнее */
+    max-width: 260px;
+  }
+}
+
+/* Картинка на всю ширину центрального блока (колонки контента) */
+.md-typeset img.full-width {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* опционально */
+}
+
+.license-note { margin-top:.5rem; font-size:.9rem; opacity:.9; }
