@@ -1,8 +1,8 @@
 # mkdocs.yml
 site_name: Commitly
-site_description: Продукт для обучения разработчиков
+site_description: Страница-портфолио CEO Commitly
 site_author: Даниил Кориненко
-site_url: https://commitly.ai
+site_url: https://Dezz27.github.io/devops-lab-korinenko/
 
 theme:
   name: material
