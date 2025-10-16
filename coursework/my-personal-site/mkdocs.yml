@@ -10,9 +10,20 @@ theme:
   logo: images/Рок.png
   favicon: images/Бокс.png
   palette:
+    # Светлая тема
     - scheme: default
       primary: indigo
       accent: pink
+      toggle:
+        icon: material/brightness-7 # Иконка солнца для светлой темы
+        name: Переключить на тёмную тему
+    # Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/brightness-4 # Иконка луны для тёмной темы
+        name: Переключить на светлую тему
   features:
     - navigation.instant
     - navigation.tracking

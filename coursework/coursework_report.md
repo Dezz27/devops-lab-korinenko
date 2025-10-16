@@ -14,7 +14,7 @@ Lab: Coursework\
 
 Date of create: 16.10.2025\
 
-Date of finished: \
+Date of finished: 16.10.2025\
 
 #### Link to MKDocs site: [https://dezz27.github.io/devops-lab-korinenko/](https://dezz27.github.io/devops-lab-korinenko/)
 
